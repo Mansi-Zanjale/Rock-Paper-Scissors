@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#abc9ff;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    background-color:lightcoral;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.choice{
+    font-size: 9rem;
+    transition: transform 0.3s ease;
+}
+
+.choice:hover{
+     cursor: pointer;
+     transform: scale(0.9);
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-weight:bolder;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+.msg{
+    background-color:darkslategrey ;
+    font-size: 2rem;
+    border: 0.1rem solid black;
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.vs{
+    margin-top: 1.2rem;
+}
+
+h2{
+    margin-top: 1rem;
+}
